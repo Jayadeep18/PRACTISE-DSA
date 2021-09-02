@@ -84,8 +84,8 @@ void ssort(vector<int>&arr,int n){
 
 int main() {
     vector<int>arr={2,1,3,5,4};
-    //bsort(arr,5);
-    //isort(arr,5);
+    bsort(arr,5);
+    isort(arr,5);
     ssort(arr,5);
     for(int x:arr){
         cout<<x<<" ";
